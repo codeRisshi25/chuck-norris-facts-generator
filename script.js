@@ -1,18 +1,20 @@
 "use strict";
 
+// Base URL for the API
 const BASE_URL = "https://api.chucknorris.io/jokes/random";
+// Create object for the generate button
+let generateButton = document.querySelector(".generate");
+// Create object for the copy button
+let copyButton = document.querySelector(".btn2");
+// Create object for the clear button
+let clearButton = document.querySelector(".btn3");
 
-async function getFacts() {
-  const response = await fetch("https://api.chucknorris.io/jokes/random");
-  const facts = await response.json();
-  console.log(facts["value"]);
-}
+// Function to make changes to the DOM
 const displayFacts = function (message) {
   document.querySelector(".genText").textContent = message;
 };
 
-let generateButton = document.querySelector(".generate");
-
+// Add event listener for the generate button
 generateButton.addEventListener("click", function () {
   let fetchRes = fetch("https://api.chucknorris.io/jokes/random");
   fetchRes
@@ -20,4 +22,15 @@ generateButton.addEventListener("click", function () {
     .then((fact) => {
       displayFacts(fact["value"]);
     });
+});
+
+// Add event listener for the copy button
+copyButton.addEventListener("click", function () {
+  let text = document.querySelector(".genText").textContent;
+  navigator.clipboard.writeText(text);
+});
+
+// Add event listener for the clear button
+clearButton.addEventListener("click", function () {
+  document.querySelector(".genText").textContent = "";
 });
