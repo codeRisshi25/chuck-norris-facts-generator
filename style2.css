@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: "Press Start 2P", "Arial";
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(167, 214, 255);
+}
+
+.left {
+  flex: 1;
+}
+.img1 {
+  width: 150px;
+  height: auto;
+}
+
+.logo {
+  width: 150px;
+  background-color: rgb(140, 194, 241);
+}
+
+.titleWrapper {
+  flex: 200px;
+  padding-left: 1rem;
+  background-color: rgb(167, 214, 255);
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.text {
+  margin: 1vh;
+  font-size: 0.8rem;
+  text-align: justify;
+  color: rgb(110, 110, 110);
+}
+
+main {
+  background-color: rgb(183, 201, 216);
+}
+
+.generate {
+  background-color: rgb(140, 194, 241);
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+.generate:active {
+  background-color: rgb(167, 214, 255);
+}
+
+.sec3 {
+  background-color: rgb(183, 201, 216);
+  height: 150px;
+  width: 430px;
+  /* display: flex;
+    align-items:flex-start;
+    justify-content: center; */
+  padding: 10px;
+}
+
+.sec4 {
+  background-color: rgb(140, 194, 241);
+  width: 430px;
+  height: 100;
+}
+
+.sec-3-div-1 {
+  height: 80px;
+  width: 350px;
+  background-color: #fff;
+  border: 3px solid rgb(167, 214, 255);
+}
+
+.buttons2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.btn2 {
+  background-color: rgb(140, 194, 241);
+  border: none;
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.btn3 {
+  background-color: rgb(140, 194, 241);
+  border: none;
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.genText {
+  padding: 7px;
+  text-align: justify;
+  text-wrap: wrap;
+  font-size: 1.1vh;
+}
