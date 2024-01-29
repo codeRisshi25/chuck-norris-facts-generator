@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="chuckNorris.png">
+    <img src="chuckNorris.png" alt="Logo" width="250">
   </a>
 
   <h3 align="center">Chuck Norris Facts Generator Website</h3>
@@ -18,8 +18,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-Chuck Norris Facts Generator
 
 Chuck Norris Facts Generater uses the chucknorris api to generate an unlimited supply of Chuck Norris facts. CLick the button below , and save the ones you like !!!
 Link to the awesome API used: https://github.com/chucknorris-io/chuck-api <br/>
